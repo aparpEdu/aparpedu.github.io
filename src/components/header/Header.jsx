@@ -12,8 +12,8 @@ const Header = () => {
                 </div>
                 <div className="nav-links">
                     <a href= "/"><FontAwesomeIcon icon={faHouse} style={{color: "#5187e7",}} /></a>
-                    <a href="/projects">Projects</a>
-                    <a href="/university">University</a>
+                    <a href="https://aparpedu.github.io/projects">Projects</a>
+                    <a href="https://aparpedu.github.io/university">University</a>
                     <a href="https://github.com/aparpEdu"><FontAwesomeIcon icon={faGithub} /></a>
                     <a href="https://www.linkedin.com/in/alexander-parpulansky/">
                         <FontAwesomeIcon icon={faLinkedin} style={{color: "#0077B5"}} /></a>
