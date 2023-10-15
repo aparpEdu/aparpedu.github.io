@@ -1,0 +1,73 @@
+.header {
+    position: fixed; /* Adjust this value to position the header at the desired location */
+    width: fit-content;
+    /*border-top: 2px solid #1f51ff;*/
+    border-right-color: #1f51ff;
+    border-bottom: 2px solid #1f51ff;
+    background: #0e0e0e;
+    opacity: 0.8;
+    z-index: 100;
+    font-size: 1.1rem;
+    border-radius: 15px;
+
+
+    .header-content {
+        color: #38a1f1;
+        font-family: cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+
+        & i {
+            margin-right: 5px;
+        }
+    }
+
+    @media (max-width: 768px) { /* Adjust this breakpoint as needed for your phone resolution */
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 100; /* Ensure it's on top of other content */
+
+        .nav-links {
+            flex-direction: row; /* Keep links on the same row for smaller screens */
+            justify-content: center; /* Center the links horizontally */
+        }
+
+        .nav-links a {
+            margin-right: 20px; /* Adjust this as needed */
+            margin-bottom: 0; /* Reset margin for smaller screens */
+        }
+
+        /* Additional styles for small screens */
+    }
+
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #38a1f1;
+            font-weight: bold;
+        }
+
+        .nav-links a:not(:last-child) {
+            border-right: 2px solid #7d9cf5;
+            padding-right: 20px;
+        }
+
+}
+
+

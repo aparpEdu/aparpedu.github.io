@@ -1,0 +1,52 @@
+.home {
+    background: linear-gradient(to top, #000000, #2c2a2a);
+    color: #3665ef;
+    opacity: 0.9;
+    width: fit-content;
+    border-radius: 30px;
+    margin-top: 21.4%;
+    padding: 0;
+    top: 60%;
+    text-align: center;
+
+
+}
+
+.title {
+    font-size: 30px;
+    padding: 1rem;
+    margin-bottom: 20px;
+    color: #38a1f1;
+}
+
+.content {
+    font-size: 19px;
+    color: #7d9cf5;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.category-header {
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.category-title {
+    font-size: 24px;
+    margin-right: 10px;
+    margin-top: 1rem ;
+}
+
+.category-container {
+    margin-bottom: 20px;
+
+}
+
+a{
+    /*text-decoration: none;*/
+}
+a:visited {
+    color: #d2cece; /* Change the color to red when a link is visited */
+}
