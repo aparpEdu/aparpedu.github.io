@@ -3,43 +3,41 @@ import './Home.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
-const Projects = () => {
-    // Define state variables for each category
-    const [restApiContent, setRestApiContent] = useState(false);
-    const [androidContent, setAndroidContent] = useState(false);
-    const [webAppsContent, setWebAppsContent] = useState(false);
-    const [otherContent, setOtherContent] = useState(false);
+    const Projects = () => {
+        const [categories, setCategories] = useState({
+            restApiContent: false,
+            androidContent: false,
+            webAppsContent: false,
+            otherContent: false,
+            uniContent: false,
+        });
 
-    // Create separate toggle functions for each category
-    const toggleRestApiContent = () => {
-        setRestApiContent(!restApiContent);
-    };
-
-    const toggleAndroidContent = () => {
-        setAndroidContent(!androidContent);
-    };
-
-    const toggleWebAppsContent = () => {
-        setWebAppsContent(!webAppsContent);
-    };
-
-    const toggleOtherContent = () => {
-        setOtherContent(!otherContent);
-    };
+        const toggleCategory = (categoryName) => {
+            setCategories((prevCategories) => {
+                return {
+                    restApiContent: false,
+                    androidContent: false,
+                    webAppsContent: false,
+                    otherContent: false,
+                    uniContent: false,
+                    [categoryName]: !prevCategories[categoryName]
+                };
+            });
+        };
 
     return (
         <div className="home">
             <h1 className="title">Apps I've worked on</h1>
             <div className="category-container">
-                <div className="category-header" onClick={toggleRestApiContent}>
+                <div className="category-header" onClick={() => toggleCategory("restApiContent")}>
                     <span className="category-title">REST API</span>
-                    <FontAwesomeIcon icon={restApiContent ? faChevronDown : faChevronRight} />
+                    <FontAwesomeIcon icon={categories.restApiContent ? faChevronDown : faChevronRight} />
                 </div>
-                {restApiContent && (
+                {categories.restApiContent && (
                     <div className="content">
                         <p>
                             <a href="https://github.com/aparpEdu/Authentication-Spring/tree/feature/refresh-token-jwt-v2" target="_blank" rel="noreferrer">
-                            Authentication
+                                Authentication
                             </a>
                         </p>
                         <p>
@@ -54,7 +52,7 @@ const Projects = () => {
                         </p>
                         <p>
                             <a href="https://github.com/aparpEdu/Blog-App-Spring-Rest-API" target="_blank" rel="noreferrer">
-                               Blog
+                                Blog
                             </a>
                         </p>
                     </div>
@@ -62,11 +60,11 @@ const Projects = () => {
             </div>
 
             <div className="category-container">
-                <div className="category-header" onClick={toggleAndroidContent}>
+                <div className="category-header" onClick={() => toggleCategory("androidContent")}>
                     <span className="category-title">Android</span>
-                    <FontAwesomeIcon icon={androidContent ? faChevronDown : faChevronRight} />
+                    <FontAwesomeIcon icon={categories.androidContent ? faChevronDown : faChevronRight} />
                 </div>
-                {androidContent && (
+                {categories.androidContent && (
                     <div className="content">
                         <p>
                             <a href="https://github.com/aparpEdu/FRN-MUSIC-PLAYER">
@@ -89,11 +87,11 @@ const Projects = () => {
             </div>
 
             <div className="category-container">
-                <div className="category-header" onClick={toggleWebAppsContent}>
+                <div className="category-header" onClick={() => toggleCategory("webAppsContent")}>
                     <span className="category-title">Web Apps</span>
-                    <FontAwesomeIcon icon={webAppsContent ? faChevronDown : faChevronRight} />
+                    <FontAwesomeIcon icon={categories.webAppsContent ? faChevronDown : faChevronRight} />
                 </div>
-                {webAppsContent && (
+                {categories.webAppsContent && (
                     <div className="content">
                         <p>
                             <a href="https://docconnect-yellow.devsmm.com/" target="_blank" rel="noreferrer">
@@ -108,13 +106,38 @@ const Projects = () => {
                     </div>
                 )}
             </div>
-
             <div className="category-container">
-                <div className="category-header" onClick={toggleOtherContent}>
-                    <span className="category-title">Other</span>
-                    <FontAwesomeIcon icon={otherContent ? faChevronDown : faChevronRight} />
+                <div className="category-header" onClick={() => toggleCategory("uniContent")}>
+                    <span className="category-title">University</span>
+                    <FontAwesomeIcon icon={categories.uniContent ? faChevronDown : faChevronRight} />
                 </div>
-                {otherContent && (
+                {categories.uniContent && (
+                    <div className="content">
+                        <p>
+                            <a href="https://github.com/aparpEdu/Image-Gallery" target="_blank" rel="noreferrer">
+                                1.Picasso
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://github.com/aparpEdu/input-validation" target="_blank" rel="noreferrer">
+                                2.Input Validations
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://github.com/aparpEdu/parcel-map" target="_blank" rel="noreferrer">
+                                3.People(Parcel + Gmaps)
+                            </a>
+                        </p>
+
+                    </div>
+                )}
+            </div>
+            <div className="category-container">
+                <div className="category-header" onClick={() => toggleCategory("otherContent")}>
+                    <span className="category-title">Other</span>
+                    <FontAwesomeIcon icon={categories.otherContent ? faChevronDown : faChevronRight} />
+                </div>
+                {categories.otherContent && (
                     <div className="content">
                         <p>
                             <a href="https://github.com/aparpEdu/Wine-App-JavaFx" target="_blank" rel="noreferrer">
