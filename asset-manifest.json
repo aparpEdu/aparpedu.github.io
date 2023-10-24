@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.42f741f4.css",
-    "main.js": "/static/js/main.d6b29134.js",
+    "main.css": "/static/css/main.28ef2bf5.css",
+    "main.js": "/static/js/main.e6695976.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/bg.mp4": "/static/media/bg.34a4f0a1a4aa275f2dc6.mp4",
     "static/media/maven-icon.svg": "/static/media/maven-icon.724b1eb69906f73585ce92cfebca6ff8.svg",
@@ -10,12 +10,12 @@
     "static/media/redis-icon.svg": "/static/media/redis-icon.756a0f801d660694935429e91a402b18.svg",
     "index.html": "/index.html",
     "static/media/springio-icon.svg": "/static/media/springio-icon.d333f33caee4cd8f3993a548646c1852.svg",
-    "main.42f741f4.css.map": "/static/css/main.42f741f4.css.map",
-    "main.d6b29134.js.map": "/static/js/main.d6b29134.js.map",
+    "main.28ef2bf5.css.map": "/static/css/main.28ef2bf5.css.map",
+    "main.e6695976.js.map": "/static/js/main.e6695976.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42f741f4.css",
-    "static/js/main.d6b29134.js"
+    "static/css/main.28ef2bf5.css",
+    "static/js/main.e6695976.js"
   ]
 }
