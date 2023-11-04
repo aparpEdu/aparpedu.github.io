@@ -46,7 +46,12 @@
 
 .category-container {
     margin-bottom: 20px;
+    transition: transform 0.3s;
+}
 
+.category-container:hover {
+    transform: translateX(-10px);
+    transition: transform 0.3s;
 }
 
 a{
@@ -57,31 +62,31 @@ a:visited:hover {
     color: white;
 }
 a:visited {
-    color: #38a1f1; /* Change the color to red when a link is visited */
+    color: #38a1f1;
 
 }
 
-/* Your previous CSS styles for the home page */
+
 
 @media (max-width: 820px) {
     .home {
-        width: fit-content; /* Make it slightly narrower on smaller screens */
-        margin-top: 80%; /* Adjust the top margin for smaller screens */
-        padding: 10px; /* Add some padding for smaller screens */
+        width: fit-content;
+        margin-top: 80%;
+        padding: 10px;
     }
 
     .title {
-        font-size: 24px; /* Reduce the title font size for smaller screens */
-        margin-bottom: 10px; /* Adjust margin for smaller screens */
+        font-size: 24px;
+        margin-bottom: 10px;
     }
 
     .content {
-        font-size: 16px; /* Reduce font size for content on smaller screens */
+        font-size: 16px;
     }
 
     .category-title {
-        font-size: 20px; /* Reduce category title font size for smaller screens */
-        margin-right: 5px; /* Adjust margin for smaller screens */
-        margin-top: 0.5rem; /* Adjust top margin for smaller screens */
+        font-size: 20px;
+        margin-right: 5px;
+        margin-top: 0.5rem;
     }
 }

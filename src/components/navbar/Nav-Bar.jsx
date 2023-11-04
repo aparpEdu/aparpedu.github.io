@@ -65,7 +65,7 @@ const NavBar = () => {
                     <img src={maven} alt="Maven" style={{ width: '24px', height: '24px' }}  title="Maven" />
                     <img src={redis} alt="Redis" style={{ width: '24px', height: '24px' }}  title="Redis"/>
                 </div>
-               <div className="role">Java <Typewriter text="Backend Developer" delay={120} infinite /></div>
+               <div className="role">Java <Typewriter text="Backend Developer" delay={200} infinite /></div>
             </div>
 
 

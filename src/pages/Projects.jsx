@@ -67,21 +67,25 @@ import { faChevronDown, faChevronRight } from "@fortawesome/free-solid-svg-icons
                 {categories.androidContent && (
                     <div className="content">
                         <p>
-                            <a href="https://github.com/aparpEdu/FRN-MUSIC-PLAYER">
+                            <a href="https://github.com/aparpEdu/FRN-MUSIC-PLAYER" target="_blank" rel="noreferrer">
                                 Music Player
                             </a>
                         </p>
                         <p>
-                            <a href="https://github.com/aparpEdu/Android-Widgets">
+                            <a href="https://github.com/aparpEdu/video-player" target="_blank" rel="noreferrer">
+                               Video Player
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://github.com/aparpEdu/Android-Widgets" target="_blank" rel="noreferrer">
                                 Widgets
                             </a>
                         </p>
                         <p>
-                            <a href="https://github.com/aparpEdu/Lucky-Numbers/tree/feature/java11">
+                            <a href="https://github.com/aparpEdu/Lucky-Numbers/tree/feature/java11" target="_blank" rel="noreferrer">
                                 Lucky Numbers
                             </a>
                         </p>
-
                     </div>
                 )}
             </div>
