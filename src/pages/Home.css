@@ -1,9 +1,11 @@
 .home {
-    background: linear-gradient(to top, #000000, #2c2a2a);
+    background: #141414;
     color: #3665ef;
-    opacity: 0.9;
+    opacity: 0.97;
     width: fit-content;
+    /*background: none;*/
     border-top: solid;
+    border-bottom: solid;
     border-radius: 30px;
     margin-top: 21.4%;
     padding: 0;
@@ -17,7 +19,7 @@
     font-size: 30px;
     padding: 1rem;
     margin-bottom: 20px;
-    color: #38a1f1;
+    color: #ff8292;
 }
 
 .category-title:hover {
@@ -32,6 +34,7 @@
 }
 
 .category-header {
+    opacity: 4;
     align-items: center;
     justify-content: space-between;
     cursor: pointer;

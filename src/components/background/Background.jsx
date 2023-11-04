@@ -1,6 +1,6 @@
 import React from "react";
 import './Background.css';
-import background from '../../assets/bg.mp4'
+import background from '../../assets/mario2.mp4'
 
 const Background = () => {
     return (
