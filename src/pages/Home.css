@@ -1,13 +1,13 @@
 .home {
     background: #141414;
     color: #3665ef;
-    opacity: 0.97;
+    opacity: 0.87;
     width: fit-content;
     /*background: none;*/
     border-top: solid;
     border-bottom: solid;
     border-radius: 30px;
-    margin-top: 21.4%;
+    margin-top: 15.4%;
     padding: 0;
     top: 60%;
     text-align: center;
@@ -22,9 +22,9 @@
     color: #ff8292;
 }
 
-.category-title:hover {
-    color: white;
-}
+/*.category-title:hover {*/
+/*    color: white;*/
+/*}*/
 
 .content {
     font-size: 19px;

@@ -5,6 +5,7 @@ import docker from '../../assets/docker-icon.svg'
 import postgres from '../../assets/postgresql-icon.svg'
 import maven from '../../assets/maven-icon.svg'
 import redis from '../../assets/redis-icon.svg'
+import java from  '../../assets/java.svg'
 import Typewriter from "../typewriter/Typewriter";
 const NavBar = () => {
     const [text, setText] = useState("");
@@ -59,6 +60,7 @@ const NavBar = () => {
             {/*</div>*/}
             <div className="tech-stack">
                 <div className="stack-icons">
+                    <img src={java} alt="Java" style={{ width: '24px', height: '24px' }}  title="Java"/>
                     <img src={spring} alt="Spring" style={{ width: '24px', height: '24px' }} title="Spring Framewotk" />
                     <img src={docker} alt="Docker" style={{ width: '32px', height: '32px' }}  title="Docker" />
                     <img src={postgres} alt="PostgreSQL" style={{ width: '24px', height: '24px' }}  title="PostgreSQL" />
