@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.1aa9d5dd.css",
-    "main.js": "/static/js/main.86d0da9f.js",
+    "main.css": "/static/css/main.0b2087af.css",
+    "main.js": "/static/js/main.ee783d58.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/winter.mp4": "/static/media/winter.557697b5ae76ef487c4d.mp4",
+    "static/media/galaxy.mp4": "/static/media/galaxy.7fdf91ccb08fd9397820.mp4",
     "static/media/maven-icon.svg": "/static/media/maven-icon.724b1eb69906f73585ce92cfebca6ff8.svg",
     "static/media/postgresql-icon.svg": "/static/media/postgresql-icon.4ba446920bb022bd86bd742574637538.svg",
     "static/media/docker-icon.svg": "/static/media/docker-icon.5acac4b4a9268616752dd9c3d466a35e.svg",
@@ -11,12 +11,12 @@
     "static/media/redis-icon.svg": "/static/media/redis-icon.756a0f801d660694935429e91a402b18.svg",
     "index.html": "/index.html",
     "static/media/springio-icon.svg": "/static/media/springio-icon.d333f33caee4cd8f3993a548646c1852.svg",
-    "main.1aa9d5dd.css.map": "/static/css/main.1aa9d5dd.css.map",
-    "main.86d0da9f.js.map": "/static/js/main.86d0da9f.js.map",
+    "main.0b2087af.css.map": "/static/css/main.0b2087af.css.map",
+    "main.ee783d58.js.map": "/static/js/main.ee783d58.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1aa9d5dd.css",
-    "static/js/main.86d0da9f.js"
+    "static/css/main.0b2087af.css",
+    "static/js/main.ee783d58.js"
   ]
 }
